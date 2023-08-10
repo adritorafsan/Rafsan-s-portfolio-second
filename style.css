@@ -280,5 +280,31 @@ section {
 }
 .about-con h2 span{
     color: orangered;
+    text-shadow: 1px 1px 3px rgb(13, 190, 190);
     font-family: 'Dancing Script', cursive;
+    font-size: 1.3em;
+}
+
+.about-con h3{
+    font-size: 1.5em;
+
+}
+
+.about-con h3 span ,.about-second  .form-span{
+    color: rgb(13, 190, 190);
+    text-shadow: 1px 1px 3px rgb(13, 190, 190);
+}
+.about-second{
+    display: flex;
+    margin-top: 50px;
+}
+
+.about-second .about-form{
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+
+.about-second .about-progress{
+    flex: 0 0 40%;
+    max-width: 40%;
 }
