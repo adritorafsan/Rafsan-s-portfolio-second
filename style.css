@@ -334,12 +334,6 @@ section {
     color: var(--text-black-700);
     font-size: .9em;
 }
-
-.about-second .about-progress {
-    flex: 0 0 40%;
-    max-width: 40%;
-}
-
 .aboutbtn {
     background: orangered;
     color: white;
@@ -351,4 +345,41 @@ section {
 .aboutbtn:hover {
     background: transparent;
     color: black;
+}
+.about-second .about-progress {
+    flex: 0 0 40%;
+    max-width: 40%;
+    padding-left: 50px;
+}
+
+.about-second .about-progress .skill-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    gap: 60px;
+}
+
+.about-second .about-progress .skill-con h5{
+    font-size: 1.2em;}
+
+.about-second .about-progress .skill-con .porgress{
+    height: 7px;
+    width: 100%;
+    background: var(--bg-black-50);
+    border-radius: 4px;
+   position: relative;
+}
+.about-second .about-progress .skill-con .porgress .progress-in{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-radius: 4px;
+    background: orangered;
+}
+.about-second .about-progress .skill-con .porgress .progress-percent{
+    position: absolute;
+    right: 0;
+    top: -30px;
+    font-size: 1.3em;
 }
