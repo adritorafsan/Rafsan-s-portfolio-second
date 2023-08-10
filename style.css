@@ -23,18 +23,18 @@ body {
 }
 
 section {
-     /* position: fixed; */
-     position: relative;
+    /* position: fixed; */
+    position: relative;
     left: 273px;
     top: 0;
     min-height: 100vh;
     background: var(--bg-black-100);
     display: block;
-    right: 0; 
+    right: 0;
     min-height: 100vh;
-    
+
     width: 85%;
-   
+
 
 }
 
@@ -47,7 +47,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     z-index: 10;
 }
 
@@ -144,12 +144,13 @@ section {
     color: blueviolet;
     transition: .5s;
 }
-.home{
+
+.home {
     padding-left: 40px;
     display: flex;
     justify-content: start;
     align-items: center;
-    
+
 }
 
 .home .home-info {
@@ -243,20 +244,23 @@ section {
         transform: translateY(0);
     }
 }
-.about{
+
+.about {
     padding-left: 40px;
     padding-right: 20px;
     padding-top: 30px;
     color: var(--text-black-700);
 }
-.about h4{
+
+.about h4 {
     text-align: center;
     font-size: 3.4em;
     position: relative;
-    
+
 }
-.about h4::before{
-   
+
+.about h4::before {
+
     content: '';
     position: absolute;
     top: 87%;
@@ -265,7 +269,8 @@ section {
     border-radius: 20px;
     background: orangered;
 }
-.about h4::after{
+
+.about h4::after {
     content: '';
     position: absolute;
     height: 6px;
@@ -275,36 +280,75 @@ section {
     top: 103%;
     left: 40%;
 }
-.about-con h2{
+
+.about-con h2 {
     font-size: 2.3em;
 }
-.about-con h2 span{
+
+.about-con h2 span {
     color: orangered;
     text-shadow: 1px 1px 3px rgb(13, 190, 190);
     font-family: 'Dancing Script', cursive;
     font-size: 1.3em;
 }
 
-.about-con h3{
+.about-con h3 {
     font-size: 1.5em;
 
 }
 
-.about-con h3 span ,.about-second  .form-span{
+.about-con h3 span,
+.about-second .form-span {
     color: rgb(13, 190, 190);
     text-shadow: 1px 1px 3px rgb(13, 190, 190);
 }
-.about-second{
+
+.about-second {
     display: flex;
     margin-top: 50px;
 }
 
-.about-second .about-form{
+.about-second .about-form {
     flex: 0 0 60%;
     max-width: 60%;
 }
 
-.about-second .about-progress{
+.about-second .about-form .personal-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+    gap: 30px 40px;
+}
+
+.about-second .about-form .personal-info .personal-item {
+    border-bottom: 2px solid var(--bg-black-50);
+    padding: 10px;
+}
+
+.about-second .about-form .personal-info .personal-item p {
+    color: black;
+    font-size: 1.1em;
+}
+
+.about-second .about-form .personal-info .personal-item p span {
+    color: var(--text-black-700);
+    font-size: .9em;
+}
+
+.about-second .about-progress {
     flex: 0 0 40%;
     max-width: 40%;
+}
+
+.aboutbtn {
+    background: orangered;
+    color: white;
+    margin-top: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.aboutbtn:hover {
+    background: transparent;
+    color: black;
 }
