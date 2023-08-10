@@ -275,4 +275,10 @@ section {
     top: 103%;
     left: 40%;
 }
-
+.about-con h2{
+    font-size: 2.3em;
+}
+.about-con h2 span{
+    color: orangered;
+    font-family: 'Dancing Script', cursive;
+}
