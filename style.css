@@ -14,6 +14,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     outline: none;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -252,14 +253,15 @@ section {
     color: var(--text-black-700);
 }
 
-.about h4 {
+.heading {
     text-align: center;
     font-size: 3.4em;
     position: relative;
+    color: var(--text-black-700);
 
 }
 
-.about h4::before {
+ .heading::before {
 
     content: '';
     position: absolute;
@@ -270,7 +272,7 @@ section {
     background: orangered;
 }
 
-.about h4::after {
+ .heading::after {
     content: '';
     position: absolute;
     height: 6px;
@@ -382,4 +384,25 @@ section {
     right: 0;
     top: -30px;
     font-size: 1.3em;
+}
+.services{
+    background: var(--bg-black-900);
+    color: var(--text-black-700);
+   
+    
+    
+}
+.services-box{
+   
+    border: 1px solid;
+}
+
+.services-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.services-con .services-item{
+    
 }
