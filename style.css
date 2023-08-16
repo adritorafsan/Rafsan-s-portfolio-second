@@ -386,7 +386,8 @@ section {
     font-size: 1.3em;
 }
 .services{
-    background: var(--bg-black-900);
+    background: var(--bg-black-100);
+    padding-left: 30px;
     color: var(--text-black-700);
    
     
@@ -394,15 +395,88 @@ section {
 }
 .services-box{
    
-    border: 1px solid;
+   margin-top: 40px;
 }
 
 .services-con{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-right: 200px;
+    margin-left: 10%;
+    padding-right: 200px;
+}
+.services-con .services-item{
+    height: 340px;
+    width: 450px;
+    border: 2px solid rgba(0,0,0,.1);
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    background: var(--bg-black-900);
+    flex-direction: column;
+    border-radius: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 10px 10px 20px var(--bg-black-50);
+    cursor: pointer;
+}
+
+
+.services-con .services-item:hover{
+    transform: scale(1.03);
+    transition: all .4s;
+}
+.services-con .services-item:hover .icon{
+    background: orangered;
+    transition: all .4s ease-in;
+    color: white;
+}
+.services-con .services-item .icon{
+    font-size: 3.6em;
+    color: orangered;
+    border: 1px solid red;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-.services-con .services-item{
+.services-con .services-item h3{
+    font-size: 1.4em;
+    margin-top: 2px;
+    margin-bottom: 3px;
+    color: rgb(253, 122, 74);
+}
+.services-con .services-item p{
+    margin-top: 2px;
+    
+}
+.projects{
+    padding-left: 20px;
+}
+.projects p{
+    color: var(--text-black-700);
+    font-size: 1.6em;
+    margin-top: 20px;
+    
+}
+.projects .projects-imges{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* margin-top: 80px; */
+    gap: 20px;
+    
+}
+
+.projects .project-box img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    margin-top:40px;
+    cursor: pointer;
     
 }
