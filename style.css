@@ -484,10 +484,50 @@ section {
     transform: scale(1.01);
     transition: all .9s;
 }
+.contact{
+    background: var(--bg-black-900);
+}
 .problem{
-    padding-left: 30px;
+    padding-left: 2%;
     margin-top: 40px;
     width: 100%;
-    border: 1px solid;
    
+}
+.problem h2{
+    text-align: center;
+    color: rgb(230, 67, 8);
+    font-size: 2.3em;
+    text-shadow: 1px 1px 2px orangered;
+}
+.problem h4{
+    text-align: center;
+    font-size: 1.7em;
+    color: var(--text-black-900);
+    text-shadow: 1px 1px 2px var(--text-black-900);
+}
+
+.problem .problem-box{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    margin-top: 3%;
+}
+
+.problem .problem-box .problem-item{
+    width: 320px;
+    display: flex;justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 220px;
+    border: 3px solid orangered;
+    background: var(--bg-black-50);
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 7px 9px 2px rgba(0, 0, 0, .2);
+   
+}
+.problem .problem-box .problem-item:hover{
+    box-shadow: 7px 9px 2px orangered;
+    transition: all .8s;
+    transform: scale(1.013);
+    border: 1px solid rgba(0, 0, 0, .2);
 }
