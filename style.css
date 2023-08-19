@@ -484,3 +484,10 @@ section {
     transform: scale(1.01);
     transition: all .9s;
 }
+.problem{
+    padding-left: 30px;
+    margin-top: 40px;
+    width: 100%;
+    border: 1px solid;
+   
+}
