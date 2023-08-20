@@ -576,4 +576,17 @@ section {
     background: rgb(222, 221, 228);
     margin-top: 20px;
     border-radius: 15px;
+    width: 100%;
+}
+.input-box textarea:focus,.input-box input:focus{
+    box-shadow: 5px 8px 10px rgba(0, 0, 0, .5);
+    transition: all .7s;
+}
+footer{
+    text-align: center;
+    background: var(--bg-black-50);
+    margin-bottom: 1px;
+    margin-top: 10px;
+    color: var(--text-black-900);
+    border-radius: 30px;
 }
