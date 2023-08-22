@@ -28,12 +28,10 @@ section {
     position: relative;
     left: 273px;
     top: 0;
-    min-height: 100vh;
     background: var(--bg-black-100);
     display: block;
     right: 0;
     min-height: 100vh;
-
     width: 85%;
 
 
@@ -715,9 +713,10 @@ footer{
         margin-right: 20px;
     }
 }
+
 @media(max-width:788px){
     .main-con{
-        width: 127%;
+        width: 143%;
     }
 }
 @media(max-width:642px){
@@ -752,7 +751,73 @@ footer{
     }
     .problem .problem-box .problem-item{
         height:350px ;
-        width: 450px;
-        font-size: 2.5em;
+        width: 400px;
+        font-size: 1.7em;
     }
+}
+@media(max-width:500px){
+    .main-con{
+        width: 183%;
+    }
+    
+    .home .home-info{
+        flex-direction: column-reverse;
+    }
+    .home .home-info .home-text {
+        flex: 0 100%;
+        max-width: 100%;
+        margin-top: 27%;
+    }
+    .home .home-info .home-img {
+        flex: 0  100%;
+        position: absolute;
+        top: 2px;
+        max-width: 100%;
+    }
+    .home .home-info .home-img img{
+        margin-bottom: 30px;
+        height: 350px;
+    }
+    marquee{
+
+        top: 84%;
+
+    }
+    .home-text p{
+        font-size: 1.4em;
+        line-height: 34px;
+        color: var(--text-black-700);
+    }
+    .about-con h3 span{
+        font-size: 1.5em;
+    }
+    .about-con p{
+        line-height: 34px;
+        font-size: 1.3em;
+    }
+    .about-second{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-second .about-form {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .about-second .about-progress {
+        margin-top: 30px;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .services-con{
+        display: grid;
+        grid-template-columns: 1fr;
+    justify-content: center;
+align-items: center;
+margin-left: 9%;
+}
+.services-con .services-item{
+    height: 440px;
+    width: 650px;
+}
 }
