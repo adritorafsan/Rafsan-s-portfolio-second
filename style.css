@@ -821,3 +821,77 @@ margin-left: 9%;
     width: 650px;
 }
 }
+@media(max-width:430px){
+    .main-con{
+        width: 193%;
+
+    }
+    .home-text p{
+        font-size: 1.8em;
+        width: 100%;
+    }
+
+.btn{
+    padding: 15px 40px;
+    font-size: 2em;
+    
+}
+marquee{
+   top: 87.5%;
+}
+.home .home-info .home-img img{
+    width: 100%;
+    height: 300px;
+}
+.home-text h3{
+    font-size: 2.5em;
+}
+.home-text h4 {
+    font-size: 2.1em;
+}
+
+.about-con h2{
+    font-size: 2.9em;
+}
+.about-con h2 span{
+    font-size: 1.7em;
+}
+.about-con h3{
+    font-size: 1.8em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media(max-width:398px){
+    .main-con{
+        width: 210%;
+    }
+}
+@media(max-width:370px){
+    .main-con{
+        width: 230%;
+    }
+}
+@media(max-width:330px){
+    .main-con{
+        width: 255%;
+    }
+}
+@media(max-width:260px){
+    .main-con{
+        width: 310%;
+    }
+    
+}
