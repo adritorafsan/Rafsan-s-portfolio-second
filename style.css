@@ -360,7 +360,8 @@ section {
 }
 
 .about-second .about-progress .skill-con h5{
-    font-size: 1.2em;}
+    font-size: 1.2em;
+}
 
 .about-second .about-progress .skill-con .porgress{
     height: 7px;
@@ -859,10 +860,51 @@ marquee{
 .about-con h3{
     font-size: 1.8em;
 }
+.about-con p{
+    font-size: 1.7em;
+    line-height: 38px;
+    width: 102%;
+}
+.about-second .about-form .personal-info{
+    gap: 20px 50px;
+}
+.aboutbtn{
+    padding: 10px 20px;
+    margin-left: 13%;
+    font-size: 1.6em;
+}
+.about-second .form-span{
+    font-size: 2.2em;
+    margin-left: 30%;
+}
 
-
-
-
+.about-second .about-form .personal-info .personal-item p{
+    font-size: 1.5em;
+}
+.about-second .about-form .personal-info .personal-item p span{
+    font-size: 1.1em;
+}
+.about-second .about-progress .skill-con{
+    grid-template-columns: 1fr 1fr;
+    gap: 80px 180px;
+    margin-left: -26%;
+    margin-right: 2%;
+}
+.about-second .about-progress .skill-con .porgress{
+    width: 150%;
+    height: 20px;
+    border: 10px;
+}
+.about-second .about-progress .skill-con .porgress .progress-percent{
+    font-size: 1.8em;
+    top: -44px;
+}
+.about-second .about-progress .skill-con h5{
+    font-size: 1.8em;
+}
+.services{
+    margin-top: 5%;
+}
 
 
 
