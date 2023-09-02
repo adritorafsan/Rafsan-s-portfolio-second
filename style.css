@@ -918,7 +918,7 @@ marquee{
 
 
 }
-@media(max-width:530px){
+@media(max-width:380px){
     .main-con{
         width: 210%;
     }
