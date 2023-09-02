@@ -601,6 +601,8 @@ footer{
         height: 350px;
         width: 400px;
     }
+    
+    
     .problem .problem-box .problem-item{
         height:200px ;
         width: 300px;
@@ -919,6 +921,38 @@ marquee{
 @media(max-width:398px){
     .main-con{
         width: 210%;
+    }
+    .services-con .services-item{
+        height: 300px;
+      width: 700px;
+      margin-left: 0%;
+    }
+    .projects .projects-imges{
+        grid-template-columns: 1fr;
+        width: 90%;
+        margin-left: 4.5%;
+    }
+    .problem .problem-box .problem-item{
+        width: 350px;
+        height: 150px;
+       
+    }
+    .problem .problem-box .problem-item span{
+        font-size:.9em;
+        color: var(--text-black-700);
+    }
+    .input-grid{
+    display: block;
+    }
+    .input-box input{
+        margin-top: 20px;
+       height: 60px;
+        width: 100%;
+    
+    }
+    .form{
+        padding-left: 20px;
+        padding-right: 30px;
     }
 }
 @media(max-width:370px){
